@@ -1,0 +1,84 @@
+body {
+	color:#222222;
+	font-size: 1em;
+	font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body section {
+	text-align: center;
+	width: 20%;
+	margin: 0 auto;
+}		
+
+section {
+	text-align: center;
+}
+
+#top-banner {
+	background-image: url('dark_knight.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding: 6em 0;
+	height: 100%;
+	width: 100%;
+	background-position: center;
+
+}
+
+#navigation ul{
+	height: 25px;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+
+}
+
+#navigation a {
+	display: block;
+}
+
+#navigation {
+	height: 25px;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#navigation li {
+	height:25px;
+	width: 140px;
+	padding: 8px 0;
+	float: left;
+	background-color: #000;
+	border-radius: 10px;
+	color: #cff;
+	text-align: center;
+	display: block;
+}
+
+#navigation li a {
+	text-decoration: none;
+}
+
+#navigation li a:hover{
+	color:red;
+}
+
+#navigation li a:visited{
+	color:green;
+}
+
+.desert {
+	height: 250px;
+	width: 250px;
+}
+
+.street {
+	height: 250px;
+	width: 250px;
+}
+
+.kanye {
+	height: 250px;
+	width: 350px;
+}
